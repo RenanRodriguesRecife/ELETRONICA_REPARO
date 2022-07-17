@@ -29,10 +29,24 @@ CORROMPIDO
         }
     }
     
-    (- Software (R-STudio): Ele reconhece mas com uma nomeclatura genérica mas com uma capacidade totaltamente errada (isso aponta que tem um problema)):
+    (- Software (R-STudio): Ele reconhece mas com uma nomeclatura genérica mas com uma capacidade totaltamente errada (isso aponta que tem um problema)):{
+        - Pode usar o PC3000 para extrair os dados do ssd manipulando a sua memória ram:{
+            - Com o SSD em modo de segurança (jump): 
+                - Executar o processo chamado Tradutor
+                - Abrir o data stractor
+                OBS: dependendo do caso o processo pode ser muito lento (demorar mais de 5 dias)
+        }
+    }
     
     
-    (- Software (R-STudio): Ele reconhece mas com uma nomeclatura genérica mas com a capacidade correta (isso aponta que tem um problema)):
+    (- Software (R-STudio): Ele reconhece mas com uma nomeclatura genérica mas com a capacidade correta (isso aponta que tem um problema)):{
+        - Pode usar o PC3000 para extrair os dados do ssd manipulando a sua memória ram:{
+            - Com o SSD em modo de segurança (jump): 
+                - Executar o processo chamado Tradutor
+                - Abrir o data stractor
+                OBS: dependendo do caso o processo pode ser muito lento (demorar mais de 5 dias)
+        }
+    }
     
 }
 
