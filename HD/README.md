@@ -23,7 +23,8 @@ CORROMPIDO
         - Agora você vai abrir o SSD e verificar se ele tem algum problema físico:{
             - Geralmente os SSD em um ponto de modo de segurança (SafeMode). Em muitos casos são acionados fazendo um JUMP específico na placa.
             <img src="./.assets/curto no ssd para safe mode.jpg">
-            Se o ssd estiver funcionado o PC vai reconhecelo com outro nome em com uma capacidade baixa (16k) - por está no modo de segurança
+            
+            Se o ssd estiver funcionado o PC vai reconhece-lo com outro nome em com uma capacidade baixa (16k) - por está no modo de segurança
         }
     }
     
