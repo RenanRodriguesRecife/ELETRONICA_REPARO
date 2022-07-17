@@ -15,7 +15,7 @@ CORROMPIDO
     - Software (FTK):  Ele reconhece mas com uma nomeclatura genérica e com 0bits de capacidade (isso aponta que tem um problema)):{
         - Agora você vai abrir o SSD e verificar se ele tem algum problema físico:{
             - Geralmente os SSD em um ponto de modo de segurança (SafeMode). Em muitos casos são acionados fazendo um JUMP específico na placa.
-            <img src="curto no ssd para safe mode.jpg">
+            <img src="./.assets/curto no ssd para safe mode.jpg">
         }
     }
 }
