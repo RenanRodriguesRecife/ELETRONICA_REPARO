@@ -6,7 +6,7 @@
 
 
 ### Reconhecimento de Aparelho
-- Se os SSD podem ter capacidades diferentes mas se tiverem o mesmo controlador são compatíveis
+- Os SSD podem ter capacidades diferentes mas se tiverem o mesmo controlador são compatíveis
 
 
 ## SSD
@@ -30,7 +30,7 @@ CORROMPIDO
     (- Software (R-STudio): Ele reconhece mas com uma nomeclatura genérica mas com uma capacidade totaltamente errada (isso aponta que tem um problema)):
     
     
-    (- Software (R-STudio): Ele reconhece mas com uma nomeclatura genérica mas com uma capacidade correta (isso aponta que tem um problema)):
+    (- Software (R-STudio): Ele reconhece mas com uma nomeclatura genérica mas com a capacidade correta (isso aponta que tem um problema)):
     
 }
 
