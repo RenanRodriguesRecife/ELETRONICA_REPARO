@@ -25,6 +25,8 @@ CORROMPIDO
             - Geralmente os SSD em um ponto de modo de segurança (SafeMode). Em muitos casos são acionados fazendo um JUMP específico na placa.
             <img src="./.assets/curto no ssd para safe mode.jpg">
             
+            <img src="./.assets/modo seguro.JPG">
+            
             Se o ssd estiver funcionado o PC vai reconhece-lo com outro nome em com uma capacidade baixa (16k) - por está no modo de segurança
         }
     }
