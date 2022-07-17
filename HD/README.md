@@ -14,7 +14,11 @@
 
 ## SSD
 
-CORROMPIDO
+### Mídias instáveis (reconhece mas você não consegue pegar informação)
+- Dados devem ser recuperados o mais rápido antes que o hd vá para o saco
+
+
+### CORROMPIDO
 
 - Conectar no PC. E não faz barulho: {
 
