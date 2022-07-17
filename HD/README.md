@@ -2,6 +2,13 @@
 - R-Studio (https://www.r-studio.com/pt/data-recovery-software/)
 - FTK - Forensic Toolkit (não sei o link ao certo)
 
+### Ferramentas
+
+
+### Reconhecimento de Aparelho
+- Se os SSD podem ter capacidades diferentes mas se tiverem o mesmo controlador são compatíveis
+
+
 ## SSD
 
 CORROMPIDO
@@ -16,7 +23,18 @@ CORROMPIDO
         - Agora você vai abrir o SSD e verificar se ele tem algum problema físico:{
             - Geralmente os SSD em um ponto de modo de segurança (SafeMode). Em muitos casos são acionados fazendo um JUMP específico na placa.
             <img src="./.assets/curto no ssd para safe mode.jpg">
+            Se o ssd estiver funcionado o PC vai reconhecelo com outro nome em com uma capacidade baixa (16k) - por está no modo de segurança
         }
     }
+    
+    (- Software (R-STudio): Ele reconhece mas com uma nomeclatura genérica mas com uma capacidade totaltamente errada (isso aponta que tem um problema)):
+    
+    
+    (- Software (R-STudio): Ele reconhece mas com uma nomeclatura genérica mas com uma capacidade correta (isso aponta que tem um problema)):
+    
+}
+
+- Conecta no PC. Defeito intermintente (hora responde, hora não responde):{
+    	- Criar uma cópia bit a bit para outro hd
 }
 
