@@ -11,7 +11,11 @@ CORROMPIDO
 }
 
 - Conectar no PC. Se fizer o barulho de reconhecimento: {
-    - Software (R-STudio): Ele reconhece mas com uma nomeclatura genérica e sem a  informação da capacidade do SSD (isso aponta que tem um problema)
-    - Software (FTK):  Ele reconhece mas com uma nomeclatura genérica e sem a  informação da capacidade do SSD (isso aponta que tem um problema)
+    (- Software (R-STudio): Ele reconhece mas com uma nomeclatura genérica e sem a  informação da capacidade do SSD (isso aponta que tem um problema)
+    - Software (FTK):  Ele reconhece mas com uma nomeclatura genérica e com 0bits de capacidade (isso aponta que tem um problema)):{
+        - Agora você vai abrir o SSD e verificar se ele tem algum problema físico:{
+        
+        }
+    }
 }
 ```
