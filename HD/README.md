@@ -6,7 +6,7 @@
 
 
 ### Reconhecimento de Aparelho
-- Os SSD podem ter capacidades diferentes mas se tiverem o mesmo controlador são compatíveis
+- Os SSD podem ter capacidades diferentes e marcas diferentes mas se tiverem o mesmo controlador são compatíveis
 
 
 ## SSD
