@@ -9,6 +9,8 @@
 ### Reconhecimento de Aparelho
 - Os SSD podem ter capacidades diferentes e marcas diferentes mas se tiverem o mesmo controlador são compatíveis
 
+### Falsificação
+<img src=".assets/hd seagate falso.JPG">
 
 ## SSD
 
