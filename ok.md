@@ -14,3 +14,8 @@
 - Recuperação de dados HD Externo do Carioca :D  -  UTI Dos Dados Recuperação de Dados - (https://www.youtube.com/shorts/kUeS3FRHAB0)
 
 - Recuperação de dados : Ainda fico impressionado -  UTI Dos Dados Recuperação de Dados - (https://www.youtube.com/watch?v=_-aP_KXwcxM)
+
+
+## Pendente
+
+https://www.youtube.com/watch?v=s6nu7zan9vM&t=122s
