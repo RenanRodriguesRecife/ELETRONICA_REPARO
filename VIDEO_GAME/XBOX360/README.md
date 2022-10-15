@@ -8,6 +8,17 @@ Para Xbox Fat é só olhar o conector da fonte.
 
 <img src=".assets/fat_conector.jpg">
 
+### Jasper
+
+foi a placa mais icônica do modelo Fat
+
+```
+Problemas mais comuns:
+
+Por conta do processo de fabricação da placa
+
+```
+2:20
 
 ## SLIM
 
@@ -69,6 +80,9 @@ Alem da diferença entre as nands, a principal nesses modelos é da alteração 
 
 <img src=".assets/novaGPU.jpg">
 
+## SUPER SLIM
+
+### Winchester
 
 
 Fontes:
