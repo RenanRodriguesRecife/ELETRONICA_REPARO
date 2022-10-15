@@ -19,3 +19,23 @@ OBS: A fonte do xbox one não funciona no xbox 360 slim
 
 ## Teste Fonte XBOX 360 slim:
 
+1 - você isola a fonte com pendaço de canudo
+
+<img src=".assets/isolaFonte.JPG">
+
+<img src=".assets/isolaFonte2.JPG">
+
+2 - Você coloca jumper lingando a fonte
+
+<img src=".assets/jumperFonte.JPG">
+
+<img src=".assets/fonteLigada.JPG">
+
+Tensões Fonte Slim
+
+<img src=".assets/tensoesslim.jpg">
+
+
+Tensões Fonte Super Slim
+
+<img src=".assets/tensoesSuperSlim.jpg">
