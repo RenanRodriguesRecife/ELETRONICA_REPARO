@@ -74,3 +74,5 @@ Alem da diferença entre as nands, a principal nesses modelos é da alteração 
 Fontes:
 
 https://eletronicabr.com/forums/topic/143817-identificando-placas-xbox-360/
+
+XBOX 360 Defeitos Mais Frequentes JASPER, TRINITY, CORONA, WINCHESTER modelos Fat e Slim - https://www.youtube.com/watch?v=yH_VKOJiILM
