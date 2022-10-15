@@ -2,7 +2,7 @@
 
 # Componentes da Placa Trinity
 
-Placa Wifi Rede Sem
+Placa Wifi
 
 <img src=".assets/placaWifi.JPG">
 
