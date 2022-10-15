@@ -6,7 +6,7 @@ Diferenças Modelos XBOX 360
 
 Para Xbox Fat é só olhar o conector da fonte.
 
-<img src="fat_conector.jpg">
+<img src=".assets/fat_conector.jpg">
 
 
 ## SLIM
