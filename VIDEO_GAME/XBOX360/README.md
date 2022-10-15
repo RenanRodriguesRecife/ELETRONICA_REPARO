@@ -89,6 +89,11 @@ OBS: Corona (pra verificar a necessidade do post fix)
 ### Winchester
 
 
+
+Algumas diferenças pelo conectores e pela label:
+
+<img src=".assets/conectorLabel.jpg">
+
 Fontes:
 
 https://eletronicabr.com/forums/topic/143817-identificando-placas-xbox-360/
