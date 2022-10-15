@@ -80,6 +80,10 @@ Alem da diferença entre as nands, a principal nesses modelos é da alteração 
 
 <img src=".assets/novaGPU.jpg">
 
+OBS: Corona (pra verificar a necessidade do post fix)
+
+<img src=".assets/postfix.jpg">
+
 ## SUPER SLIM
 
 ### Winchester
