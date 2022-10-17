@@ -1,5 +1,6 @@
 # Fonte do xbox 360
 
+obs: A fonte é chamada de PSU (Power supply unit) nos esquemas elétricos
 
 ## Problema 1: Quando se liga a fonte de 110 no 220.
 
