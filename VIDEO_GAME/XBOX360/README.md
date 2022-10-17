@@ -2,6 +2,10 @@
 
 Diferenças Modelos XBOX 360 
 
+Revisão das Placas:
+
+<img src=".assets/revisions.JPG">
+
 ## FAT
 
 Para Xbox Fat é só olhar o conector da fonte.
