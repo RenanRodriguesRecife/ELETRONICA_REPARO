@@ -204,6 +204,10 @@ Because of the large number of bad CPUs I encountered, I installed a QFP socket 
 
 23) Lots of games play fine (like SMW, though the rotating bar is jumpy), but some act really weird (especially the track on Mode 7 games, and the ship on Star Fox is all over the place), test cart says MPY 8x8 and DIV 16/8 failed
 
+<img src=".assets/cpu_23-1.jpg">
 
+<img src=".assets/cpu_23-2.jpg">
+
+<img src=".assets/cpu_23-3.jpg">
 
 Fonte: https://www.projectvb.com/nss/logs.htm#whatif
