@@ -247,6 +247,12 @@ _PPU1_
 
 <img src=".assets/ppu1_4-2.jpg">
 
+_PPU2_
+
+<img src=".assets/ppu2.jpg">
+
+1) Missing a lot of objects, mostly missing red, some games won't boot (Star Fox), games run fine, fails test (CG RAM, EXT LATCH, HV TIMER, V224/V239 failed)
+
 
 
 Fonte: https://www.projectvb.com/nss/logs.htm#whatif
