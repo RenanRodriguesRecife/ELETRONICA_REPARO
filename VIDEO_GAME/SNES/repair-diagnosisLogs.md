@@ -291,4 +291,38 @@ _PPU2_
 
 _WRAM_
 
+<img src=".assets/wram.jpg">
+
+Dead or bad chip can cause dead system, weird behavior, lockups, etc.
+Fails test (WRAM failed) if test is able to run
+
+_VRAM_
+
+<img src=".assets/vram.jpg">
+
+_U4_
+Colors wrong, wrong graphics, narrow vertical lines in graphics, games run fine
+Fails test (VRAM HIGH failed)
+
+<img src=".assets/vram_u4-1.jpg">
+
+<img src=".assets/vram_u4-2.jpg">
+
+<img src=".assets/vram_u4-3.jpg">
+
+<img src=".assets/vram_u4-4.jpg">
+
+
+_U5_
+Wrong graphics, narrow vertical lines in graphics, weird graphics combinations, lots of duplicated graphics top and bottom, games run fine
+Fails test (VRAM LOW failed)
+
+<img src=".assets/vram_u5-1.jpg">
+
+<img src=".assets/vram_u5-2.jpg">
+
+<img src=".assets/vram_u5-3.jpg">
+
+<img src=".assets/vram_u5-4.jpg">
+
 Fonte: https://www.projectvb.com/nss/logs.htm#whatif
