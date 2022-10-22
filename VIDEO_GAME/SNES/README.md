@@ -8,3 +8,5 @@ Tela preta: A tv reconhece mas fica a tela preta
 
 
 Verificar o link: https://console5.com/wiki/SNES#SHVC-CPU-01_.281990.29
+
+Verificar o link: https://wiki.superfamicom.org/
