@@ -168,6 +168,10 @@ Replaced SNES CPU
 
 Because of the large number of bad CPUs I encountered, I installed a QFP socket in a Super Famicom system to quickly test suspect CPUs and pulls from unknown motherboards.
 
+<img src=".assets/cpu_test_1.jpg">
+
+<img src=".assets/cpu_test_2.jpg">
+
 
 
 Fonte: https://www.projectvb.com/nss/logs.htm#whatif
