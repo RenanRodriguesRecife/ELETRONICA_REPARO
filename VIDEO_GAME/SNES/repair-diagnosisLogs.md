@@ -35,4 +35,139 @@
 
 <img src=".assets/test.jpg">
 
+
+# Nintendo Super System motherboard repair log
+
+-1-
+Had gray screen issue
+Determined the voltage to the video mixing chip was low, due to high resistance of R71
+Replaced R71
+R101 (for audio circuit) was also out of spec, so replaced that too
+---FIXED---
+
+-2-
+Some games worked, others had glitchy graphics (SMW looked fine, F-Zero had track issues)
+Ran test cart, said bad DMA
+Replaced SNES CPU
+---FIXED---
+
+-3-
+Would boot to menu, but when started, some games would play music with solid color screen, others would do nothing
+Ran test cart, said bad HV Timer
+Replaced SNES CPU
+---FIXED---
+
+-4-
+Had previously been worked on, had hacks, etc.
+Would boot to menu, but when started, SNES half seemed mostly dead
+Ran test cart, would show garbled main screen, when selected any sub-test, it locked up
+Replaced SNES CPU Still had garbled graphics, but was able to run test... said bad VRAM, DMA, VRAM COUNT
+Looked at rework of PPUs and noticed some pins on PPU1 had no solder. Resoldered PPUs and it booted and everything looked good
+There was also no sound.
+Looking over the other hacks, someone had removed R101. Replaced with ERJP 1/2W 10 ohm resistor.
+---FIXED---
+
+-5-
+Played some games fine, but mostly mode 7 games like F-Zero and Mario Kart had problems. F-Zero was really jumpy when turning, and Mario Kart played fine by looking at the map, but the main screen had a scrambled track. Super Mario World also showed a few minor glitches, like the bar of the rotating platform was jumpy.
+Ran test cart, said bad MPY 8X8 and DIV 16/8
+Replaced SNES CPU
+---FIXED---
+
+-6-
+Would boot to menu, but when started, SNES half seemed dead
+Ran test cart, still dead
+Replaced SNES CPU
+---FIXED---
+
+-7-
+Would boot to menu, but when started, SNES half seemed mostly dead (occasionally booted to garbage graphics)
+Ran test cart, would show main screen, but when Burn-In Test selected, would show random Japanese characters in place of graphics
+Replaced SNES CPU Passed all tests, but had some graphics problems (some colors wrong, glitchy vertical lines in some graphics, etc)
+Replaced SNES PPU2
+---FIXED---
+
+-8-
+Would boot to menu, but when started, SNES half seemed dead (could hear it reboot occasionally)
+Ran test cart, when selected any sub-test, it locked up
+Replaced SNES CPU
+---FIXED---
+
+-9-
+Mostly worked, occasional black screen, some sound issues
+Inspected board and noticed poor soldering on modifications
+Solder didn't flow on resistor mod
+Large glob of solder over both L55 and L56 (shorting both together, not each)
+Had loud hum when plugged into the cabinet, though sounded fine on the testbench
+Suspected power supply noise was getting through to audio circuitry due to old resistor/jumper wire modification
+uninstalled old modification and installed upgraded original resistors
+---FIXED---
+
+-10-
+Sound not working properly
+Inspected board and noticed solder pads configured for Mono audio
+Soldered jumpers to original Stereo configuration
+Audio worked on testbench, but not when installed in cabinet (cabinet has volume control connected to JAMMA edge, testbench has no control)
+Audio is enabled by providing power to one side of potentiometer (JAMMA pin lowercase 'c'). Noticed the board was never powering this pin
+Traced pin 'c' to Q15 (NPN Transistor marked "BR", likely BCW60DR), had good voltages in, but never "turned on"
+Replaced with same type of transistor from dead SNES motherboard
+---FIXED---
+
+-11-
+Would boot to menu, but when started, some games would run with graphics issues, others would only show black screen
+Ran test cart, said HV Timer failed
+Replaced SNES CPU
+---FIXED---
+
+-12-
+Game plays fine, but when either Y or B are pressed, both were activated
+Tested resistance between Y and B inputs, not shorted
+Probed lines at IC52 (Parallel to Serial shift register) and CPU and everything looked fine
+Replaced SNES CPU
+---FIXED---
+
+-13-
+Would boot to menu, but when started, SNES half seemed dead
+Ran test cart, still dead
+Replaced SNES APU
+---FIXED---
+
+-14-
+Would boot to menu, but when started, SNES half seemed dead
+Ran test cart, would boot, but display garbage after selecting test
+Replaced SNES CPU Test then showed VRAM HIGH FAIL, DMA FAIL, VRAM COUNT FAIL
+Replaced SNES PPU1
+---FIXED---
+
+-15-
+Would boot, but all the graphics were blocky garbage, though you could tell that the games were playing (scrolling background, track, etc).
+Replaced SNES PPU1
+---FIXED---
+Note: The +5V was adjusted to over 6.5V, which may have contributed to PPU1 failure
+
+-16-
+Would boot to menu, but when started, some games would run with weird problems, some would lock up during boot
+Ran test cart, passed all tests
+Replaced SNES CPU
+---FIXED---
+
+-17-
+Would boot to menu, but when started, SNES half seemed dead
+Ran test cart, still dead (occasionally showed menu and immediately locked up)
+Replaced SNES CPU
+---FIXED---
+
+-18-
+Would boot to menu, but when started, SNES half seemed dead
+Ran test cart, still dead
+Replaced SNES CPU
+---FIXED---
+
+# Misc CPU failures
+
+<img src=".assets/cpu.jpg">
+
+Because of the large number of bad CPUs I encountered, I installed a QFP socket in a Super Famicom system to quickly test suspect CPUs and pulls from unknown motherboards.
+
+
+
 Fonte: https://www.projectvb.com/nss/logs.htm#whatif
