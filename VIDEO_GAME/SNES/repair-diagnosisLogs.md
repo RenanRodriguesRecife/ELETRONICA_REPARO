@@ -301,6 +301,7 @@ _VRAM_
 <img src=".assets/vram.jpg">
 
 _U4_
+
 Colors wrong, wrong graphics, narrow vertical lines in graphics, games run fine
 Fails test (VRAM HIGH failed)
 
@@ -314,6 +315,7 @@ Fails test (VRAM HIGH failed)
 
 
 _U5_
+
 Wrong graphics, narrow vertical lines in graphics, weird graphics combinations, lots of duplicated graphics top and bottom, games run fine
 Fails test (VRAM LOW failed)
 
