@@ -253,6 +253,42 @@ _PPU2_
 
 1) Missing a lot of objects, mostly missing red, some games won't boot (Star Fox), games run fine, fails test (CG RAM, EXT LATCH, HV TIMER, V224/V239 failed)
 
+<img src=".assets/ppu2_1-1.jpg">
 
+<img src=".assets/ppu2_1-2.jpg">
+
+<img src=".assets/ppu2_1-3.jpg">
+
+<img src=".assets/ppu2_1-4.jpg">
+
+2) Colors wrong, jumpy horizontal scrolling, some games won't boot (Star Fox, SFA2), games run fine, fails test (can't see error)
+
+<img src=".assets/ppu2_2-1.jpg">
+
+<img src=".assets/ppu2_2-2.jpg">
+
+<img src=".assets/ppu2_2-3.jpg">
+
+<img src=".assets/ppu2_2-4.jpg">
+
+3) Lots of wrong colors, flickery vertical lines through lots of graphics, missing some graphics, games run fine, passes test
+
+<img src=".assets/ppu2_3-1.jpg">
+
+<img src=".assets/ppu2_3-2.jpg">
+
+<img src=".assets/ppu2_3-3.jpg">
+
+<img src=".assets/ppu2_3-4.jpg">
+
+4) Most colors seem tinted yellow, some wrong colors, some vertical lines through graphics, games run fine, passes test
+
+<img src=".assets/ppu2_4-1.jpg">
+
+<img src=".assets/ppu2_4-2.jpg">
+
+# "What-if" failures
+
+_WRAM_
 
 Fonte: https://www.projectvb.com/nss/logs.htm#whatif
