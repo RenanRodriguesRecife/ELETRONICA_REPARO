@@ -222,6 +222,31 @@ Because of the large number of bad CPUs I encountered, I installed a QFP socket 
 
 # Misc PPU failures
 
+<img src=".assets/ppu1.jpg">
+
+_PPU1_
+1) Blocky graphics, thick vertical lines, some games won't boot (Yoshi's Island), games run fine, fails test (can't read error)
+
+<img src=".assets/ppu1_1-1.jpg">
+
+<img src=".assets/ppu1_1-2.jpg">
+
+2) Blocky graphics, some games won't boot (Yoshi's Island), games run fine, fails test (can't read error)
+
+<img src=".assets/ppu1_2-1.jpg">
+
+<img src=".assets/ppu1_2-2.jpg">
+
+3) Almost everything is fine (Yoshi's Island has a few vertical lines in a few parts), games run fine, fails test (VRAM HIGH, DMA, VRAM COUNT failed)
+
+<img src=".assets/ppu1_3-1.jpg">
+
+4) Blocky graphics, games run fine, fails test (can't read error)
+
+<img src=".assets/ppu1_4-1.jpg">
+
+<img src=".assets/ppu1_4-2.jpg">
+
 
 
 Fonte: https://www.projectvb.com/nss/logs.htm#whatif
