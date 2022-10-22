@@ -210,4 +210,18 @@ Because of the large number of bad CPUs I encountered, I installed a QFP socket 
 
 <img src=".assets/cpu_23-3.jpg">
 
+24) Lots of games play fine, but some have a few small glitches (flickering graphics)
+
+<img src=".assets/cpu_24-1.jpg">
+
+<img src=".assets/cpu_24-2.jpg">
+
+25) Won't boot most games, test cart passes all tests
+26) Dead
+27) Dead
+
+# Misc PPU failures
+
+
+
 Fonte: https://www.projectvb.com/nss/logs.htm#whatif
