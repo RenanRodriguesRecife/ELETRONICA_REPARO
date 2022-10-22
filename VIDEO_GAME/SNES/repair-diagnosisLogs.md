@@ -172,6 +172,40 @@ Because of the large number of bad CPUs I encountered, I installed a QFP socket 
 
 <img src=".assets/cpu_test_2.jpg">
 
+1) Won't boot most games, test cart boots, but shows Japanese characters at burn-in test
+2) Won't boot most games, test cart hangs at boot
+3) Won't boot most games, test cart boots, but locks up after selecting any test
+4) Won't boot most games, test cart boots, but locks up after selecting any test (and timer never increases)
+5) Dead
+6) Won't boot most games, test cart boots, but shows garbage at burn-in test
+7) Dead
+8) Dead
+9) Dead
+10) Dead
+11) Dead
+12) Dead
+13) Plays most games fine, all tests pass, won't boot some games (SFA2, Yoshi's Island, etc)
+14) Some games boot to garbage or audio only, test cart boots, HV Timer failed
+15) Won't boot most games, test cart hangs at boot
+16) Won't boot most games, test cart passes all tests
+17) Some games boot to garbage or audio only, test cart boots, HV Timer failed
+18) Everything works except dead controls
+19) Everything works except lots of buttons appear shorted together (press one and lots of buttons are "pressed")
+20) Everything works except Y and B appear shorted together (press one and both buttons are "pressed")
+21) Some games work correctly, others have weird glitches (like floating shadows in F-Zero), test cart says DMA failed
+
+<img src=".assets/cpu_21-1.jpg">
+
+22) Most games work correctly, some have weird sprite glitches (SFA2 bad flipped sprites, SMK karts on bottom map), some hang during boot (Yoshi's Island), test cart passes all tests
+
+<img src=".assets/cpu_22-1.jpg">
+
+<img src=".assets/cpu_22-1 (1).jpg">
+
+<img src=".assets/cpu_22-2.jpg">
+
+23) Lots of games play fine (like SMW, though the rotating bar is jumpy), but some act really weird (especially the track on Mode 7 games, and the ship on Star Fox is all over the place), test cart says MPY 8x8 and DIV 16/8 failed
+
 
 
 Fonte: https://www.projectvb.com/nss/logs.htm#whatif
