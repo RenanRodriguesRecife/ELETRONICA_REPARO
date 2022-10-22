@@ -33,5 +33,6 @@
 
 - I highly recommend making/borrowing/buying a Burn-In test cart (described <a href="https://tcrf.net/SNES_Burn-In_Test_Cart">HERE</a> ). Even when other games won't boot, many times it'll boot, test the hardware, and tell you which tests failed. It won't necessarily tell you the bad chip, but you can make educated guesses from the results.
 
+<img src=".assets/test.jpg">
 
 Fonte: https://www.projectvb.com/nss/logs.htm#whatif
