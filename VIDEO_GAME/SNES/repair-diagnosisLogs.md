@@ -200,8 +200,6 @@ Because of the large number of bad CPUs I encountered, I installed a QFP socket 
 
 <img src=".assets/cpu_22-1.jpg">
 
-<img src=".assets/cpu_22-1 (1).jpg">
-
 <img src=".assets/cpu_22-2.jpg">
 
 23) Lots of games play fine (like SMW, though the rotating bar is jumpy), but some act really weird (especially the track on Mode 7 games, and the ship on Star Fox is all over the place), test cart says MPY 8x8 and DIV 16/8 failed
