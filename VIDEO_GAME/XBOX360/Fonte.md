@@ -40,3 +40,8 @@ Tensões Fonte Slim
 Tensões Fonte Super Slim
 
 <img src=".assets/tensoesSuperSlim.jpg">
+
+
+Fonte Xbox 360 slim trinty
+
+- Capacitor do primário (unico) - 330uf 200v
