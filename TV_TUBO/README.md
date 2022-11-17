@@ -1,6 +1,6 @@
 # TV TUBO
 
-Pq tv de tubo:
+Pq tv de tubo?: (Esse jogos foram desenvolvidos pensado em rodar nessas Tvs)(não vale a penas usar tv de tubo na geração HD para frente)
 
 - As scanlines alinham os pixels
 
