@@ -1,5 +1,15 @@
 # TV TUBO
 
+Pq tv de tubo:
+
+<img src=".assets/direferenças1.jpg">
+
+<img src=".assets/diferenças2.jpg">
+
+Efeito de transparência que só acontece no sinal AV
+
+<img src=".assets/avEffect.JPG">
+
 
 MOD RGB nas TV de tubos
 
