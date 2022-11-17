@@ -2,6 +2,10 @@
 
 Pq tv de tubo:
 
+- As scanlines alinham os pixels
+
+- A iluminação da tv mesclam as cores dos pixels
+
 <img src=".assets/direferenças1.jpg">
 
 <img src=".assets/diferenças2.jpg">
