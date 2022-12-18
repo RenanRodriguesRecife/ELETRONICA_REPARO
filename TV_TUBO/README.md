@@ -38,3 +38,7 @@ https://www.youtube.com/watch?v=wNDy3n1JsFI
 https://www.youtube.com/watch?v=S_v9ya6ARkI
 
 https://www.youtube.com/watch?v=jETwqIAh5A4
+
+CURIOSIDADES
+
+https://www.youtube.com/watch?v=awL6rq1Yzz4
