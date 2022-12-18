@@ -10,6 +10,8 @@ Pq tv de tubo?: (Esse jogos foram desenvolvidos pensado em rodar nessas Tvs)(nã
 
 <img src=".assets/diferenças2.jpg">
 
+<img src=".assets/diferenças3.JPG">
+
 Efeito de transparência que só acontece no sinal AV
 
 <img src=".assets/avEffect.JPG">
