@@ -9,8 +9,12 @@ A função principal de um capacitor eletrônico é armazenar carga elétrica. E
 
 Os capacitores são utilizados em uma variedade de circuitos eletrônicos, incluindo:
 
-Filtragem: capacitores são usados ​​para filtrar componentes indesejados de uma corrente elétrica, como ruído ou interferência.
-Armazenamento de energia: capacitores são usados ​​para armazenar energia temporariamente em circuitos, como em dispositivos de flash de câmeras.
-Sinal de áudio: capacitores são usados ​​em circuitos de áudio para filtrar frequências indesejadas e melhorar a qualidade do som.
-Sinal de vídeo: capacitores são usados ​​em circuitos de vídeo para estabilizar a tensão e melhorar a qualidade da imagem.
-Além disso, os capacitores também são usados ​​em aplicações de eletrônica de potência, como compensação de reatância, estabilização de tensão e supressão de surtos.
+- Filtragem: capacitores são usados para filtrar componentes indesejados de uma corrente elétrica, como ruído ou interferência.
+
+- Armazenamento de energia: capacitores são usados para armazenar energia temporariamente em circuitos, como em dispositivos de flash de câmeras.
+
+- Sinal de áudio: capacitores são usados em circuitos de áudio para filtrar frequências indesejadas e melhorar a qualidade do som.
+
+- Sinal de vídeo: capacitores são usados em circuitos de vídeo para estabilizar a tensão e melhorar a qualidade da imagem.
+
+Além disso, os capacitores também são usados em aplicações de eletrônica de potência, como compensação de reatância, estabilização de tensão e supressão de surtos.
