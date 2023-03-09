@@ -18,3 +18,15 @@ Os capacitores são utilizados em uma variedade de circuitos eletrônicos, inclu
 - Sinal de vídeo: capacitores são usados em circuitos de vídeo para estabilizar a tensão e melhorar a qualidade da imagem.
 
 Além disso, os capacitores também são usados em aplicações de eletrônica de potência, como compensação de reatância, estabilização de tensão e supressão de surtos.
+
+## Cristais
+
+Cristal é responsável pela geração de sinais e clooks para a placa mãe. 
+	A placa mãe tem várias frequencias e precisa de clooks multiplicadores para funcionar
+
+O cristal tem internamente duas laminas de quartizo. Que vibram em velocidade contante quando aplica determina tensão
+Ele é usado em ociladores que devem trabalhar sempre usando uma frequencia constante
+
+Os critais são frageis se acontecer alguma pancada ou alguma queda ele não vai funcionar.
+Para testa-lo se usa o frequencimentro ou o ociloscópio.
+
