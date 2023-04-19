@@ -20,3 +20,7 @@ Antigamente as vezes colocava o cristal PALM em cima do outro sem retirar o orig
 Em outros casos eles removem o cristal NTSC original e colocam o PALM
 
 <img src=".assets/ex2.JPG">
+
+Em alguns casos eles levantavam a perninha do chip gráfico e aterravam
+
+<img src=".assets/ex3.JPG">
