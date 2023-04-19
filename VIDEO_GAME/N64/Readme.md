@@ -26,7 +26,7 @@ Em alguns casos eles levantavam a perninha do chip gráfico e aterravam
 <img src=".assets/ex3.JPG">
 
 
-#### Tem outros casos dos aparelhos da gradiente que já eram PALM de fábrica
+### Tem outros casos dos aparelhos da gradiente que já eram PALM de fábrica
 
 
 Fonte:
