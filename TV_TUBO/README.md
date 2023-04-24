@@ -16,6 +16,19 @@ Efeito de transparência que só acontece no sinal AV
 
 <img src=".assets/avEffect.JPG">
 
+## Curiosidade Sobre telas de Portáteis
+
+### GBC
+
+O GBC tinha suaspenas scanlines (era mais um tipo de matrix de pontos)
+
+<img src=".assets/telaGBC.JPG">
+
+### GBA
+
+Não é a mesca coisa uma tela de IPS com a tela original do modelo 101
+
+<img src=".assets/telaGBA.JPG">
 
 MOD RGB nas TV de tubos
 
