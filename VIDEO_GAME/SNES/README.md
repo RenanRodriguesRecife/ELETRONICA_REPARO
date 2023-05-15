@@ -9,6 +9,11 @@ Obs: Não dá vídeo é diferente de tela preta.
 
 1- Verifica a fonte do vídeo game: Geralmente as fontes paralelas tem uma amperagem menor que a fonte original e pode causar o mesmo ruido no vídeo game.
 
+2 - Pode ser esses capaciotres responsáveis pelo audio que já estão ruim:
+
+são capacitores de 10uF e 16v.
+
+<img src=".assets/capAudio.jpg">
 
 Referência:
 https://www.youtube.com/watch?v=L1gqmMKspSk
