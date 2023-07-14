@@ -17,3 +17,10 @@ version 1
 
 version 2
 <img src=".assets/gearv2.jpg">
+
+
+
+
+
+
+https://wiki.console5.com/wiki/Game_Gear#Power_PCB:_837-9025,_837-7720-01_(most_common)_/_837-9538_(VA4_Power_Board)
