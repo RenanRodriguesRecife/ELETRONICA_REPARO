@@ -3,7 +3,7 @@
 Fontes:
 https://www.electronica-pt.com/fontes-alimentacao/fontes-alimentacao-tv
 
-
+https://www.youtube.com/@cristiano91106/search?query=AULA
 -------------------------------------
 Sequencia de imagem
 
