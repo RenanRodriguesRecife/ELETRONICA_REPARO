@@ -1,3 +1,10 @@
+--------------------------------------------
+
+Fontes:
+https://www.electronica-pt.com/fontes-alimentacao/fontes-alimentacao-tv
+
+
+-------------------------------------
 Sequencia de imagem
 
 1-(trama)Para um televisor funcionar primeiro ele tem que ter trama:
