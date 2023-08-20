@@ -1,6 +1,22 @@
+Consumo do PS2:
+Standby - 12mA
+
+
+O PWM recebe 7,5v da fonte. Gera 3,3v e desses gera 1,5v.
+
+
 # PLAYSTATION 2
 
+### Não liga nem tem luz vermelha de standby
 
+Um curto na linha de 3,3v pode acontecer isso
+
+
+## Liga aparece a luz verde mas trava na luz verde você não consegue desligar.
+
+- Verifique se a luz o ótico (do som) acesso ou forte.(caso não esteja é sinal que está faltando alimentação)
+
+----------------------------
 ## Liga mas não dá vídeo
 
 ### Oxidação
@@ -37,4 +53,10 @@ as tensões que chegam no cooler são:
 
 
 OBS: É muito comum esses coolers apresentarem problemas. Por conta que é o PS2 é um aparelho que pega muita oxidação esses coolers geralmente se estragam oxidam com muita facilidade. é muito comum vendedores te vender Coolers com problema (Tenha certesa que está testando a placa com um Cooler que esteja funcionando perfeitamente).
+
+
+
+OK:
+
+https://www.youtube.com/watch?v=LFs5mGnN7-w
 
