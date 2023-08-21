@@ -9,6 +9,11 @@ O PWM recebe 7,5v da fonte. Gera 3,3v e desses gera 1,5v.
 
 ### Não liga nem tem luz vermelha de standby
 
+
+Verificar se tem os 7,5v da fonte
+
+Se tiver os 7,5v e a fonte não desarma pode ser sinal que o setor do pwn está em curto
+
 Um curto na linha de 3,3v pode acontecer isso
 
 
