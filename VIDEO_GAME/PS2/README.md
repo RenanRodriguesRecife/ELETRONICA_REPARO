@@ -79,7 +79,7 @@ OBS: É muito comum esses coolers apresentarem problemas. Por conta que é o PS2
 
 OK:
 
-https://www.youtube.com/watch?v=LFs5mGnN7-w
+PS2 Curto linha 3.3v - https://www.youtube.com/watch?v=LFs5mGnN7-w
 
 PS2 Curto "NÃO LIGAVA" e entrada de controle não funcionava. Varias dicas nesse vídeo.
  - https://www.youtube.com/watch?v=24WvtevqY6w
