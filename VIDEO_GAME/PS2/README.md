@@ -7,6 +7,8 @@ O PWM recebe 7,5v da fonte. Gera 3,3v e desses gera 1,5v.
 
 # PLAYSTATION 2
 
+---------------------
+
 ### Não liga nem tem luz vermelha de standby
 
 
@@ -20,6 +22,9 @@ Um curto na linha de 3,3v pode acontecer isso
 ## Liga aparece a luz verde mas trava na luz verde você não consegue desligar.
 
 - Verifique se a luz o ótico (do som) acesso ou forte.(caso não esteja é sinal que está faltando alimentação)
+
+- Geralmente é um curto na linha de 2,5v
+
 
 ----------------------------
 ## Liga mas não dá vídeo
