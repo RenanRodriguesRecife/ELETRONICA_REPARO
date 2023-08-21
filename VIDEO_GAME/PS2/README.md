@@ -35,6 +35,17 @@ Um curto na linha de 3,3v pode acontecer isso
 
 O PS2 é um aparelho que acumula muita poeira e pega muita oxidação. As soldas dele podem está danificadas. Verique se algum capacitor SMD está oxidado. (é muito comum os capacitores SMD de filtro da área da saída de vídeo que ficam embaixo do Cooler Oxidar).
 
+---------------------
+## Liga dá imagem e em seguida desliga piscando os leds verde e vermelho
+
+ps2 slim 9000
+
+Geralmente é esse micro ci (não sei a função dele)
+
+<img >
+
+
+-------------------------
 
 ## COOLER NÃO GIRA
 
