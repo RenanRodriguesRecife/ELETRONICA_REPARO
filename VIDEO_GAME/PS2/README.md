@@ -83,3 +83,6 @@ https://www.youtube.com/watch?v=LFs5mGnN7-w
 
 PS2 Curto "NÃO LIGAVA" e entrada de controle não funcionava. Varias dicas nesse vídeo.
  - https://www.youtube.com/watch?v=24WvtevqY6w
+
+
+PS2 Curto linha 2.5v - Varias dicas e PWM - https://www.youtube.com/watch?v=8swfERkRQ5A&t=642s
