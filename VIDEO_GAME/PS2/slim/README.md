@@ -16,3 +16,4 @@ https://maker.pro/forums/threads/portable-playstation-2-project.272126/
 
 http://forums.modretro.com/index.php?threads/ps2-portable-as-minimal-as-possible.15000/
 
+https://bitbuilt.net/forums/index.php?threads/video-encoder-pinout.4787/
