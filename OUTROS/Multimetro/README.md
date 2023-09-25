@@ -16,4 +16,6 @@ Primeiro limpe a placa (para remover as impuresas)
 
 (ainda não sei se funciona muito bem): - Pasta de solda da implastec + solda nova + aquecimento (para problemas maiores)
 
+
+Fontes
 - https://www.youtube.com/watch?v=2LRQnnNLHbk
