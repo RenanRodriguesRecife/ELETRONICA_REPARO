@@ -23,3 +23,4 @@ Ex:
 
 ### Dicas para prolongar a vida útil.
 
+Os maiores períodos de stresse na bateria são quando ela está carregada ou quando ela está totalmente descarregada. Para prolongar a vida útil da bateria é melhor manter sempre o aparelho entre 80 e 20 porcento de carga.
