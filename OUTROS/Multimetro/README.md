@@ -35,7 +35,31 @@ Este processo deve ser repetido três vezes na primeira utilização.
 
 Não recomendamos realizar este precedimento de forma rotineira, pois ele pode aumantar o nível de desgaste da sua bateria. Recomenda-se a realização do procedimento caso o produto apresente falhas de funcionamento ou na primeira utilização da mesma.
 
+#### 2 - Evite que a carga seja zerada
 
+Evite descarregar a bateria até que o notebook desligue, pois cada vez que uma bateria de Íon de Lítio é descarregada completamente ela perde 1 ciclo de vida. Uma bateria nova pode possuir em média de 300 a 400 ciclos de carregamento.
+
+##### Dica para não perder ciclos de bateria
+
+Sempre que possível, mantenha a bateria com energia entre 30% e 80% de carga, ou seja, quando a bateria estiver com aproximadamente 30%, coloque-a para carregar. Assim que ela atingir os 80% você poderá desconectar e deixá-la funcionando somente na bateria até atingir 30%. Dessa forma você evitará que ela perca um ciclo completo, aumentando a vida útil da bateria.
+
+Qunado uma bateria atinge o nível máximo de carga, ocorre o aquecimento interno das células, que podem chegar a aproximadamente 45 C, sendo a temperatura um dos principais fatores na diminuição da vida útil da bateria.
+
+#### 3 - Evita altas temperaturas
+
+Evite expor a bateria a altas temperaturas. A temperatura recomendada é entre 15 C e 20 C, e nunca abaixo de 5 C.
+
+Nunca deixe o notebook com a bateria dentro de um carro fechado em um dia de muito calor. Isto pode reduzir consideravelmente a vida útil da bateria.
+
+#### 4 - Realizar cargas periódicas
+
+Caso o notebook não seja usado por mais de uma semana (7 dias):
+
+- Efetue o carregamento da bateria até 60% de carga;
+
+- Retire a bateria do notebook e guarde-a em um lugar cuja temperatura não exceda 25 C.
+
+- O recomendado é colocá-la dentro de um plástico anti-estático (não energizado) e lacrar a embalagem para que não entre poeira nos contatos da bateria.
 
 
 
