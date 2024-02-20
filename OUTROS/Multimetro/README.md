@@ -66,3 +66,21 @@ Caso o notebook não seja usado por mais de uma semana (7 dias):
 ### Dicas para prolongar a vida útil.
 
 Os maiores períodos de stresse na bateria são quando ela está carregada ou quando ela está totalmente descarregada. Para prolongar a vida útil da bateria é melhor manter sempre o aparelho entre 80 e 20 porcento de carga.
+
+### Cuidado importantes
+
+- Há risco de incêndio se a bateria ou células forem batidas ou danificadas
+
+- A bateria deve ficar a uma temperatura inferior a 50 C. Haverá risco de explosão ou incêndio caso a temperatura for superior a 60 C.
+
+- O modelo da bateria deve ser compatível com o equipamento. Não tente substituir por um modelo não compatível, o mesmo pode ocasionar explosão ou incêndio.
+
+- Em caso de quedas, acidentes ou danifiação do invóluco* é aconselhável enviar a bateria ao revendedor/distribuidor para análise, pois danos internos podem gerar riscos de incêndio ou explosão.
+
+- Não abra o invóluco plástico que faz parte do corpo da bateria
+
+- Não toque no eletrólito se houver dano e vazamento do mesmo
+
+- Recarregue a bateria em locais ventilados, preferencialmente em temperatura ambiente de até 25 C, pois é no momento da recarga que a fonte e a bateria apresentam pico de aquecimento.
+
+- Não jogue baterias velhas no lixo comum. Descarte em lixo seletivo conforme recomendações descritas na coluna ao lado.
