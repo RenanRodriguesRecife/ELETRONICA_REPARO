@@ -84,3 +84,21 @@ Os maiores períodos de stresse na bateria são quando ela está carregada ou qu
 - Recarregue a bateria em locais ventilados, preferencialmente em temperatura ambiente de até 25 C, pois é no momento da recarga que a fonte e a bateria apresentam pico de aquecimento.
 
 - Não jogue baterias velhas no lixo comum. Descarte em lixo seletivo conforme recomendações descritas na coluna ao lado.
+
+### Descarte e Reciclagem
+
+#### Atenção 
+
+Baterias descartadas de forma incorreta podem gerar danos a saúde e ao meio ambiente.
+
+Realize o descarte correto de sua bateria usada. Procure um programa de coleta deste tipo de material mais próximo de sua região para que seja feita a destinação e reciclagem .
+
+#### Proibido
+
+Conforme resolução do Ministério do Meio Ambiente, fica proibidas as seguintes formas de destinação final das baterias usadas: 
+
+1 - Lançamento "in natura" a céu aberto, tanto em áreas urbanas como rurais;
+
+2 - Queima a céu aberto ou em recipientes instalações ou equipamentos não adequados, conforme legislação virgente.
+
+3 - Lançamento em cursos d'água, prais, manguezais, terrenos baldios, poços ou cacimbas, cavidades subterrâneas, em redes de drenagem de águas pluviais, esgotos eletricidade ou telefone ou em áreas sujeitas à inundação.
