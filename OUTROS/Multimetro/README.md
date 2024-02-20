@@ -21,6 +21,24 @@ Ex:
 14.4v = 14.8V
 
 
+### Como Proceder na primeira utilização da bateria?
+
+Recomendamos seguir estas instruções para que a sua bateria tenha um melhor desempenho e vida útil
+
+#### 1 - Efetue a calibragem
+
+O processo de calibragem serve para nivelar as células da bateria, garantindo assim uma melhor performance e desempenho do equipamento.
+
+A calibragem consiste em carregar a bateria 100% e, em seguida, descarregá-la até 0%. Depois tornar a carregar novamente
+
+Este processo deve ser repetido três vezes na primeira utilização.
+
+Não recomendamos realizar este precedimento de forma rotineira, pois ele pode aumantar o nível de desgaste da sua bateria. Recomenda-se a realização do procedimento caso o produto apresente falhas de funcionamento ou na primeira utilização da mesma.
+
+
+
+
+
 ### Dicas para prolongar a vida útil.
 
 Os maiores períodos de stresse na bateria são quando ela está carregada ou quando ela está totalmente descarregada. Para prolongar a vida útil da bateria é melhor manter sempre o aparelho entre 80 e 20 porcento de carga.
