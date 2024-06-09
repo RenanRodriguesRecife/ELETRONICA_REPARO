@@ -7,7 +7,7 @@
 - Discipador interno da fonte ou alguma coisa interna incostando na carcaça da fonte
 - O aterramentao interno da fonte ligado diretamente do chassi
 
-<img src="../.assets/600W_power_supply.jpg">
+<img src="./.asset/600W_power_supply.jpg">
 
 Fontes OK:
 
