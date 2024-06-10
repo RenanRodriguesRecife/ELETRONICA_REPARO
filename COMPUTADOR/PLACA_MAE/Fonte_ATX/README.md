@@ -55,7 +55,8 @@ Fontes OK:
 - https://www.youtube.com/watch?v=YqngrLVQ71E - ok
 - https://www.youtube.com/watch?v=Zbu7Ewd5o3Q - ok
 - https://www.youtube.com/watch?v=whWq20NKPG4 - ok
-
-- https://www.youtube.com/watch?v=n5nGP30MdDk
+- https://www.youtube.com/watch?v=n5nGP30MdDk - ok
+  
 - https://www.youtube.com/watch?v=0joFxJbNIHY
 - https://www.smpspowersupply.com/atx-power-supply.html
+- https://www.youtube.com/watch?v=9dXF-0jhCMw
