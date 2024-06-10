@@ -84,5 +84,6 @@ Fontes OK:
 - https://www.youtube.com/watch?v=n5nGP30MdDk - ok
   
 - https://www.youtube.com/watch?v=0joFxJbNIHY
-- https://www.smpspowersupply.com/atx-power-supply.html
+- https://www.smpspowersupply.com/atx-power-supply.html -ok
 - https://www.youtube.com/watch?v=9dXF-0jhCMw
+- https://www.powerfactor.us/circuit.html
