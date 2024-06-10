@@ -25,7 +25,13 @@ Este é um diagrama de circuito conceitual. Este esquema não mostra o circuito 
 -  O capacitor de armazenamento (o maior) é projetado para fornecer energia à saída durante interrupções curtas de energia de entrada. Na prática, pode haver vários capacitores de armazenamento em paralelo.
 -  As fontes de alimentação de computadores, bem como as unidades comerciais, normalmente precisam suportar pelo menos um ciclo da onda senoidal de entrada, que é de 16 ms nos EUA e 20 ms na Europa. O boost PFC fornece uma tensão de link DC (Vdc) que é superior ao pico do AC de entrada. Nas fontes de alimentação de computadores modernas, essa tensão é tipicamente de 375-400 VDC. Se você estiver tentando solucionar problemas em uma unidade e medir cerca de 160 VDC em C1, isso significa que o estágio boost não está funcionando.
 -  O estágio DC-DC de saída em qualquer SMPS sempre contém um ou mais dispositivos de comutação que periodicamente comutam redes LC.
+- O diagrama acima mostra um conversor direto (forward converter) com reset ativo. O half-bridge (meia ponte) também é frequentemente usado nos projetos de PCs.
 
+- O interruptor principal Q2 aplica periodicamente a tensão Vdc ao primário do transformador de potência T1. Quando Q2 está no estado "ligado", a tensão positiva aparece nos terminais superiores dos secundários de T2.
+- Como resultado, os diodos retificadores D2, D4, D7 e D9 conduzem, e a energia da fonte de entrada é entregue às cargas. Ao mesmo tempo, alguma energia também é acumulada nos núcleos de T2 e nos indutores L2, L4, L5 e L6.
+- Quando Q2 está no estado "desligado", as tensões nos secundários de T2 invertem as polaridades e os diodos retificadores ficam polarizados reversamente. Como os indutores de saída ainda tentam manter o fluxo de corrente, a polaridade das tensões através deles se inverte de acordo com a lei de Faraday.
+- Como resultado, os indutores continuam conduzindo através dos diodos de despreocupados D3, D5, D8 e D10, mantendo assim circuitos de corrente fechados através de suas respectivas cargas.
+- Durante este intervalo de tempo, o interruptor auxiliar Q3 fornece a fixação e o reset ativo do transformador principal. Quando Q3 desliga, Q2 liga em zero volts, o que reduz suas perdas de comutação.
 
 
 
