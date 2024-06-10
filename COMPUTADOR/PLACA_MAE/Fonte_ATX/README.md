@@ -42,6 +42,7 @@ Este é um diagrama de circuito conceitual. Este esquema não mostra o circuito 
 
 - Um conversor flyback separado consiste no MOSFET de potência Q5, no transformador T2, no retificador D11 e no capacitor de filtro C7. Ele serve a dois propósitos: fornecer polarização ao circuito de controle e fornecer uma tensão de standby de 5V (5VSB). Essa tensão deve estar presente sempre que a energia AC for aplicada à fonte. Ela alimenta os circuitos que permanecem operacionais quando os trilhos de saída DC principais estão desativados. Veja um exemplo de design de um flyback simples de 12V.
 
+<img src="./.asset/atx-pinout.png">
 
 
 
