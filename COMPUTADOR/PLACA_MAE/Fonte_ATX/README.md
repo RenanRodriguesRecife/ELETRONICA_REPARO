@@ -46,6 +46,8 @@ Este é um diagrama de circuito conceitual. Este esquema não mostra o circuito 
 
 
 
+## Fonte real
+
 
 
 <img src="./.asset/600W_power_supply.jpg">
