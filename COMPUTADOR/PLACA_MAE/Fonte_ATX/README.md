@@ -33,6 +33,15 @@ Este é um diagrama de circuito conceitual. Este esquema não mostra o circuito 
 - Como resultado, os indutores continuam conduzindo através dos diodos de despreocupados D3, D5, D8 e D10, mantendo assim circuitos de corrente fechados através de suas respectivas cargas.
 - Durante este intervalo de tempo, o interruptor auxiliar Q3 fornece a fixação e o reset ativo do transformador principal. Quando Q3 desliga, Q2 liga em zero volts, o que reduz suas perdas de comutação.
 
+- O circuito de controle regula a saída de 5V usando modulação por largura de pulso (PWM).
+-  O barramento de 3,3V é derivado do mesmo enrolamento secundário que o de 5V. Você pode ver que há um indutor adicional, L3, no caminho da corrente de 3,3V. Este é um indutor magamp. Ele é usado para bloquear uma parte do pulso, a fim de reduzir a tensão regulada para 3,3V.Um transistor auxiliar, Q4, define a corrente de reset do indutor magamp L3. Esta corrente determina os volts-segundos bloqueados por L3. O amplificador de erro de +3,3V (não mostrado no diagrama) frequentemente usa sensoriamento remoto para compensar a queda excessiva de tensão no cabo.
+- As saídas #3 e #4 (+/-12V) na fonte de alimentação descrita são semi-reguladas. Elas não são reguladas por um controle de loop fechado individual, mas são parcialmente estabilizadas pelo PWM agindo no barramento principal de 5V.
+
+- Todas as saídas DC são então levadas a conectores padronizados do chicote. Aqui está o pinout do conector principal ATX.
+- Observe que os sistemas ATX modernos têm pelo menos dois trilhos de 12V: +12V1 e +12V2. No entanto, na maioria dos casos, ambos vêm da mesma saída física de 12V
+
+- Um conversor flyback separado consiste no MOSFET de potência Q5, no transformador T2, no retificador D11 e no capacitor de filtro C7. Ele serve a dois propósitos: fornecer polarização ao circuito de controle e fornecer uma tensão de standby de 5V (5VSB). Essa tensão deve estar presente sempre que a energia AC for aplicada à fonte. Ela alimenta os circuitos que permanecem operacionais quando os trilhos de saída DC principais estão desativados. Veja um exemplo de design de um flyback simples de 12V.
+
 
 
 
