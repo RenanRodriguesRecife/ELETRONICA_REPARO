@@ -7,9 +7,9 @@ Bem as fontes dos tvs Sony são difíceis de consertar porque os técnicos utili
 
 ## 2- Porque troco os transistores o resistor da fonte e fica esquentando muito e queima tudo denovo?
 
-Primeiro o resistor da fonte (aquele branquinho) não e um simples resistor e um fusistor e tem que ser original jamais coloque de fio, pois um resistor de fio é um indutor e alteraria a freqüência de trabalho de fonte queimando tudo de novo.
+Primeiro o resistor da fonte (aquele branquinho) não é um simples resistor é um fusistor e tem que ser original jamais coloque de fio, pois um resistor de fio é um indutor e alteraria a freqüência de trabalho de fonte queimando tudo de novo.
 
-Os transistores 2SC4834 e 2SC4056 NÃO POSUEM EQUIVALENTES tem que serem originais, pois foram projetados especificamente para as fontes Sony ( já viu um destes em um outro aparelho de outra marca?)e um não serve no lugar do outro, para ter uma idéia de como são especiais chega haver mais de um tipo, por exemplo, o KV 140 MG utiliza o 2SC4834EMNP código Sony 87-290-39-09 já o KP41T15(telão)utiliza o
+Os transistores 2SC4834 e 2SC4056 NÃO POSUEM EQUIVALENTES tem que serem originais, pois foram projetados especificamente para as fontes Sony ( já viu um destes em um outro aparelho de outra marca?) e um não serve no lugar do outro, para ter uma idéia de como são especiais chega haver mais de um tipo, por exemplo, o KV 140 MG utiliza o 2SC4834EMNP código Sony 87-290-39-09 já o KP41T15(telão)utiliza o
 2SC4834MNP com o código Sony 87-290-19-49 aparentemente iguais porem diferentes e um não da no lugar do outro.
 
 Outros componentes importantes são, os capacitores de base dos transistores (aqueles azulzinhos) observe que eles são no Maximo para 100V e se você seguir a trilha da base dos transistores (ou pelo esquema o que e raro quem tenha ) Vera que vai num terminal do capacitor e o outro terminal do capacitor naquele trafo pequenininho que vai para terra. então temos um capacitor em serie com a base e o trafo para terra.Normalmente o aparelho chega para o técnico com os transistores em curto total isto quer dizer que a tensão do coletor que e 300V(do circuito de retificação primaria) foi aplicado momentaneamente a base e ao capacitor que e de 100V ai eu pergunto será que ele se alterou? E lógico que sim e é a principal causa de queima dos transistores.
