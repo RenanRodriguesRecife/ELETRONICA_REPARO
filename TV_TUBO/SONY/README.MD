@@ -145,6 +145,123 @@ Bem como já deve Ter dado para perceber este TV tem vários itens para verifica
 Espero que com o que passo aqui posa estar ajudando os amigos a resolverem com mais agilidade (e menos prejuízos) os defeitos destes modelos de TV. O meu muito obrigado a todos e ate mais.
 
 
+Part 3
+
+explicar algumas coisas sobre os TVs KV-29T75(CHASSI AA2F) e KV-29T80 (CHASSI BA4B). As explicações são básicas e me detive mais nos circuitos de proteção pôr darem mais defeito.
+Os TVS em questão têm poucas diferenças nos seus circuitos, devido a isto as explicações que se sequem são baseadas no KV-29T80(BA4B).
+
+este Tv possui 5 circuitos de proteção:
+
+- PROTEÇÃO DE SOBRECORRENTE DA LINHA DE 135V.
+- PROTEÇÃODE SOBRETENCAO DO FLY-BACK
+- PROTEÇÃO DE SOBRECORRENTE DA FONTE PRINCIPAL
+- PROTEÇÃO DA FONTE DE 9V DE STAND-BY
+- PROTEÇÃO DE FALTA DE DEFLEXAO VERTICAL
+
+## PROTEÇÃO DE SOBRECORRENTE DA LINHA DE 135V
+
+E composta pôr Q571,R571,RR574,R575,R572,R573,R576,D581,D571.
+Se a corrente ultrapassar os 2 A, a tensão encima de R 571 fará Q 571 conduzir enviando uma tensão para a base de Q 300 que pôr sua vez ira aterrar o pulso H DRIVE do pino 18 do ic 301 fazendo o TV desligar e ao mesmo tempo polarizara a base de Q 613 que pôr sua vez ira aterrar o pino RELAY(STAND-BY) colocando a fonte em OFF.
+
+## PROTEÇÃO DE SOBRETENSÃO DO FLY-BACK
+
+A segunda e compota pôr D574,R582,R583,R584. O diodo D574 retifica a tensão vinda do pino7 do fly, e passa pelo divisor resistivo composto pôr R582, R583, R584 e vai para o pino 5 do ic 521.no pino 6 do ic521 temos uma tensão de referencia fornecida pôr D572, D573 e R579. Se a tensão do pino 5 ultrapassar a do pino 6 o pino 7 ficará com nível alto polarizando a base de Q300 e Q613 fazendo o TV se desligar.
+
+## PROTEÇÃO DE SOBRECORRENTE DA FONTE PRINCIPAL
+
+A terceira e na propia fonte de alimentação e é obtida monitorando a tensão encima de R641 e R640 ,se a corrente aumentar muito a tensão encima destes resistores ira aumentar e o ic601 ira cortar o pulso de chaveamento da fonte.
+
+## PROTEÇÃO DA FONTE DE 9V DE STAND-BY.
+
+É composta basicamente pelo transistor Q604 e pelo diodo zener D619.
+Se pôr algum motivo a fonte de 9v subir acima de 10v o diodo D619 ira conduzir polarizando a base de Q604 que nesta
+Condição ira aterrar a tensão de relay fazendo o TV desligar.
+
+## PROTEÇÃO DE FALTA DE DEFLEXAO VERTICAL
+
+O micro processador recebe em seu pino 17(i-prot) uma amostra do pulso da saída vertical ,se pôr algum motivo faltar este pulso no pino 17 o micro coloca o TV em stand-by pelo pino relay e faz o led do painel piscar 4 vezes.
+
+## ROTINA DE REPARO.
+
+A rotina de reparo empregada para este chassi e a mesma do KV-2970.
+
+-Verificar se não a falha de deflexão vertical (entrando no modo de serviço)
+-Verificar proteção de sobrecorrente do fly
+-Verificar proteção de sobretensao do fly
+-Verificar circuito de IK (saída de vídeo)
+
+## Agora vamos a algumas dicas.
+
+
+Em 95% dos casos em que este TV fica de desligando intermitente ou não e pôr solda fria nos pinos do trafo driver horizontal (T501) não da para ver a olho nu só com uma lupa e pressionando o trofo pôr cima.
+
+
+Se o fly-back não for original e a proteção de sobre tensão ficar sendo acionada freqüentemente devemos alterar o valor do R582 de 10k para 8k2.
+Às vezes o TV esta se desligando e pelas piscadas do led concluímos que e defeito de vertical, porem quando acessamos o modo de serviço o TV sege funcionando com deflexão normal.nestes casos não e defeito na saída vertical, mas na linha que envia a informação para o pino i-prot (17) do micro, geralmente o diodo zener D001 costuma a dar fuga ou estar em curto ou ainda com fuga intermitente o que deixa o técnico louco que troca tudo no vertical e é o diodo com problemas, fiquem atentos a isto.
+
+
+Este TV possui auto diagnostico (que quando o TV foi lançado era chamado de'IA'.. ? inteligência artificial, imagina só.) que pode ser identificado pelo numero de piscadas do led.
+
+
+2 vezes - proteção de sobrecorrente do fly.
+4 vezes - falta de deflexão vertical
+5 vezes - falha na linha de ik (a corrente dos cátodos e muito pequena.)
+
+
+se você pegar este TV com defeitos estranhos como, geometria desajustada (vertical, largura ,pin...) sem som
+ou outro sintoma estranho execute o recet da memória para isto faça o seguinte.
+
+Entre no modo de serviço: com o TV em stand-by digite pelo remoto DISPLAY, CANAL 5, VOLUME + E POWER.
+Deste modo aparecera a tela de serviço então DIDITE 8 E APARECERA NA TELA RECET EM VERMELHO
+E AGORA PRECIONE ENTER, o TV ira desligar e ligar novamente. geralmente resolve estes casos.
+
+
+A ELTEC publica este esquema elétrico, com tudo você pode adquiri-lo e utilizar para os dois modelos.
+Procure descobrir qual circuito está falhando e/ou qual proteção esta sendo acionada ou se não e defeito no próprio circuito de proteção,não saia trocando peças como louco tente seguir uma logica de reparo.
+
+
+# Part 4
+
+## circuito de IK das tvs Sony 
+
+### Para que serve o circuito IK?
+
+Bem sabemos que com o passar do tempo os tubos de imagem vão se desgastado o que provoca um desbalanceamento das cores RGB e consequentemente uma má escala de cinza prejudicando a qualidade final da imagem. Os televisores Sony utilizam o circuito de IK para monitorar a corrente nos cátodos e assim modificar o ganho dos amplificadores de RGB interno ao processador de vídeo para compensar o desgaste do tubo mantendo assim a qualidade final da imagem.
+
+### Como funciona?
+
+Quando ligamos o tv o circuito integrado processador de vídeo envia para a placa de saída de vídeo (C) um trem de pulsos de diferente períodos através dos pinos de RGB. Tais pulsos são enviados para os cátodos e retornam pelo pino de IK. O processador de vídeo então compara a amplitude do pulso de retorno com uma tensão de referencia interna e compensa o ganho dos amplificadores para que todos estejam no mesmo nível para então liberar a imagem.
+
+### Defeitos.
+
+Se o processador não conseguir compensar a diferença de amplitude do pulso de retorno não será liberada a imagem. As causas podem ser o próprio tudo ou algum outro defeito de polarização do mesmo.
+
+### Análise da defeito.
+
+
+Para analisar o sintoma de LED do painel piscando e sem imagem ,devemos enganar o processador de vídeo colocando três resistores de 1K ligados entre os pinos de RGB e IK da placa do tubo (C). desta forma estaremos desviando os pulsos diretamente para o pino de IK. Então o tv ira liberar a imagem e o técnico poderá analisar o defeito.
+#Para sabem quem é o culpado faça o seguinte, após a liberação de imagem coloque o nível de cor do tv em 0 e em um canal fora do ar ou entre com uma padrão de escala de cinza , veja como está a escala de cinza se estiver com uma determinada com mais forte, verifique as tensões nos pinos de KR, KG e KB no soquete do tubo. se estiverem em praticamente em mesmo nível o problema geralmente é o tubo , para comprovar ligue o tv na serie e aterre momentaneamente um de cada vês os pinos KR, KB, KG do tubo e compare o brilho das cores. se uma estiver mais fraca é o tubo que está esgotado.
+Se o tubo estiver ok o problema é na placa do cinescopio. Em 90% dos defeitos da placa (c) são os transistores que estão com o seu ganho alterado, e sempre devem ser substituídos os três.
+Outra causa deste tipo de defeito é o ajuste de screem e a tensão de 180V.
+Porem se com o artificio dos resistores não ouve a liberação da imagem o problema é na placa principal. Na linha de IK temos um resistor em serie com um capacitor eletrolítico, verifique o resistor e troque o capacitor que pode estar com ESR elevada o que provocaria o defeito. Se o capacitor e o resistor estiver ok o provável defeito é o processador de vídeo (CXA).
+
+### Rotina de reparo.
+
+
+1- verifica se o filamento está aceso , caso não verifique toda a linha até o fly-back . alguns modelos tem um jumper na linha de harter que da solda fria e o filamento não acende.
+2- Tente um ajuste de screem se a imagem aparecer troque os transistores da placa c.
+3- verifique a tensão de 180V que é 180V para os de 14 polegadas e de 200V para os de 20 polegadas (veja sempre o que está escrito na placa c). se a tensão estiver mais alta verifique a tensão da fonte principal ,se esta estiver ok siga a linha dos 180V( ou 200V) e terá um resistor de 220K ou 330K para terra que deve estar aberto ou alterado.
+4- Se a tensão de 180V (200V) estiver ok, o screen ok e filamento ok, coloque os resistores de 1K e faça os testes como já foi descrito(#).
+
+
+Quanto aos tubos da Sony são de tecnologia exclusiva(Trinitron) da empresa o que quer dizer que não podemos colocar outro tubo de outro fabricante no lugar porem há a exceção do KV-200MG e do KV-140MG que utilizam tubos comuns que podem ser substituídos por tubos da Philips, sansung etc..
+
+
+Quando o defeito é mesmo o tubo porem não está tão ruim o técnico logo pensa em deixar os resistores e entregar o tv para o cliente. Porem uma observação deve ser feita. Quando o tubo está desgastado a tendência é piorar mais e mais rápido e isto deve ser informado ao cliente. Se assim for, a melhor alternativa seria a seguinte:
+Corte a trilha que vai no pino de IK na placa C.
+Coloque ao invés de resistores ,diodos de sinal (1N4148) com os anodos em RGB e os cátodos em IK.
+Bem pessoal estas são algumas informações sobre o circuito de IK, espero que ajude a facilitar a análise e solucionar os problemas que apresentam este estagio dos tvs sony.
+Um abraço a todos e até mais
 
 
 https://13norte.blogspot.com/2011/03/kv-21fs140-quema-transistor-de-salida.html
