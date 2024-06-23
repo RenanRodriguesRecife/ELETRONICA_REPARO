@@ -1,7 +1,8 @@
 
 ## 1-Porque e tão difícil consertar as fontes Sony?
 
-Bem as fontes dos tvs Sony são difíceis de consertar porque os técnicos utilizão o conceito errado. as fontes Sony NÃO SÃO FONTES CHAVEADAS, são na verdade INVERSORES DE ALTA POTENCIA isto é são osciladores sonoidais ( do tipo LC) de alta potencia.
+Bem as fontes dos tvs Sony são difíceis de consertar porque os técnicos utilizão o conceito errado. 
+**As fontes Sony NÃO SÃO FONTES CHAVEADAS, são na verdade INVERSORES DE ALTA POTENCIA isto é são osciladores sonoidais ( do tipo LC) de alta potencia.**
 
 
 ## 2- Porque troco os transistores o resistor da fonte e fica esquentando muito e queima tudo denovo?
