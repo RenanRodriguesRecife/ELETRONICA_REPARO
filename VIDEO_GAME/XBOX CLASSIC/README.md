@@ -15,6 +15,11 @@ Revisão de Placas:
 |09/13/2004 - 08/2005 | 1.6b |
 
 
+ERROS:
+
+## 07 - hd faltando
+
+
 
 https://www.ogxbox.com/forums/index.php?/topic/10731-og-xbox-xecuter-2-modchip/
 
