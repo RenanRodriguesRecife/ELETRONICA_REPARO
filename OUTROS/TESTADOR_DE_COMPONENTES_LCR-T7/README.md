@@ -12,6 +12,10 @@ O circuito integrado step-up é um HYEQG, não encontrei o datasheet dele.
 
 Infelizmente ainda não há um datasheet da placa inteira para a nossa versão. O principio de funcionamento é o mesmo, apenas alguns componentes foram alterados.
 
-<img src=".assets/d3.JPG"/>
+<img src=".assets/d3.jpg"/>
 
-<img src=".assets/d4.JPG"/>
+<img src=".assets/d4.jpg"/>
+
+quando aperto o botão, ele liga , mas permanece a tela congelada em testing.....  até acabar a bateria . Ja identifiquei o problema , é um ci smd SRV05-4  (U-6) que faz a segurança do processador contra descargas ESD , talvez queimado porque eu tenha ligado um capacitor sem antes descarrega-lo , mas de qualquer forma vou comprar e testar e depois posto o resultado aqui no site.
+
+Estou te informando porque nesta minha procura encontrei um site em Russo que aponta o ci HYEQG como sendo um SY7200A , inclusive se você procurar para compra-lo no aliexpress ele fornece a indicação HY..... , porque o resto é data de fabricação e algumas variações de temperatura de trabalho . Estou postando o endereço original do site , caso você queira dar uma olhada para ver se ha mais alguma informação que lhe sirva . Espero que isso lhe ajude !
