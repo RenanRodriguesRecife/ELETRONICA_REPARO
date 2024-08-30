@@ -18,6 +18,22 @@ Infelizmente ainda não há um datasheet da placa inteira para a nossa versão. 
 
 U7 - este é SY7200A (marcando HY6VE)
 
+Essa falha ocorrerá mais cedo ou mais tarde em todas as unidades LCR-TXx com esse design de placa de PC, onde o trilho da fonte de alimentação de 30 V se conecta diretamente ao terminal K do soquete de teste.
+
+Ao contrário do circuito de teste Zener do testador de transistor OSHW original, que tem um IC "regulador de tensão de comutação de aumento" gerando um trilho estável de 30 V seguido por um resistor em série de 10 K, este fabricante substituiu um IC "driver de LED de corrente constante de aumento". O principal erro deles é que eles falharam em colocar um resistor em série adequado > 2K2 ohms entre o trilho de 30 V e o pino K.
+
+Aqui está o que aconteceu: quando um zener ou um diodo (polarizado para frente) é conectado entre KA enquanto o testador está em um estado energizado, isso danifica o pino de entrada de detecção de corrente do IC de elevação (U7 na placa de PC). Na verdade, qualquer componente eletrônico com baixa resistência <1K ohms ou um capacitor com ESR baixo pode causar essa falha. Este pino no IC de elevação (U7) tem uma tensão de entrada máxima de 4V. Este pino IC é conectado ao terminal A do soquete de teste. O pior caso é colocar um curto direto entre K e A enquanto o testador LCR está energizado com a tela LCD ligada. Há um capacitor de filtro (C14) no trilho de 30V (K no soquete de teste). C14 carrega uma carga de 30V. Fazer um curto-circuito de KA despeja toda a energia armazenada dentro de C14 diretamente no pino de detecção de corrente do IC de elevação. Embora a duração possa ser breve, 30V é muito mais do que 4V. Em muitos casos, apenas a porção de detecção de corrente do U7 é destruída. O resto do U7 continua a operar, gerando 30 V sem nenhuma limitação de corrente. Isso permite a corrente de pico de até 500 mA através do KA. É por isso que um zener em teste pode ficar extremamente quente quase instantaneamente.
+
+Usei um resistor de série 2K2 na minha unidade. Se a resistência da série for maior, o testador pode relatar que um zener está sendo testado enquanto os pinos KA estão em circuito aberto. Um valor de 2K2 é suficiente para proteger U7 de danos.
+
+Para concluir, a solução é:
+1) Corte a folha da placa de circuito impresso que leva ao pino K e, em seguida, conecte o resistor 2K2 da junção de D2 e ​​C14 ao pino K,
+2) Substitua U7 se estiver com defeito ou queimado
+3) Substitua D2 se estiver com defeito ou queimado
+4) Verifique se a tensão de circuito aberto de K para A é de aproximadamente 30 V
+5) Coloque um resistor de 1 K em KA e confirme se o testador identifica isso como um zener de 5 a 7 V.
+
+
 Correção no projeo para evitar queimar:
 
 
