@@ -16,6 +16,11 @@ Infelizmente ainda não há um datasheet da placa inteira para a nossa versão. 
 
 <img src=".assets/d4.jpg"/>
 
+U7 - este é SY7200A (marcando HY6VE)
+
+Correção no projeo para evitar queimar:
+
+
 Defeito 2:
 
 quando aperto o botão, ele liga , mas permanece a tela congelada em testing.....  até acabar a bateria . Ja identifiquei o problema , é um ci smd SRV05-4  (U-6) que faz a segurança do processador contra descargas ESD , talvez queimado porque eu tenha ligado um capacitor sem antes descarrega-lo , mas de qualquer forma vou comprar e testar e depois posto o resultado aqui no site.
